@@ -2,7 +2,9 @@
 
 I created this tool because I was playing the Tie Fighter Total Conversion Reimagined mod inside of OpenXWA on my Linux machine and the existing pilot editors for X-Wing Alliance was not editing the tie fighter pilot files properly.
 
-This tool will set which tour-of-duty mission an X-Wing Alliance pilot file is about to fly. This could be the original X-Wing Alliance game, the XWAU mod or the TFTC mod. 
+This tool will set which tour-of-duty mission an X-Wing Alliance pilot file is about to fly. This could be the original X-Wing Alliance game, the XWAU mod or the TFTC mod or any future mods that have the `mission.lst` file. 
+
+<img src="screenshot.png" alt="XWA Pilot Screenshot" width="600">
 
 ## Recommended Tools
 
@@ -197,3 +199,10 @@ If upstream changes those structs, `pilot.go` and the tests will need updating.
   numeric range.
 - This only touches tour-of-duty progress. Skirmish progress
   (`combatChamberMissions`) is left alone.
+
+## Release Downloads Notes
+
+If you download from the github releases page at https://github.com/anthonyirwin82/xwa-pilot/releases then the filenames will have the OS and CPU Architecture in them so they are different for every system.
+
+  You can rename them to be xwa-pilot to be the same as the examples in this README file. On Linux and macOS you will also need to make the file executable in the command line by running `chmod +x xwa-pilot` (Assuming you renamed the file to that).
+
