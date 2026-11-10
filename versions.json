@@ -3,7 +3,7 @@
     {
       "ModId": "XWAPILOT",
       "BaseKey": "XWAPILOT",
-      "Name": "XWA Pilot (For changing which tour of duty mission your pilot is on)",
+      "Name": "XWA Pilot (Change the Tour of Duty Mission your pilot is on)",
       "ShortName": "XWA Pilot",
       "Company": "Anthony Irwin",
       "Url": "https://github.com/anthonyirwin82/xwa-pilot",
