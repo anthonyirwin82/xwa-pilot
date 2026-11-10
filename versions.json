@@ -1,0 +1,40 @@
+{
+  "Mods": [
+    {
+      "ModId": "XWAPILOT",
+      "BaseKey": "XWAPILOT",
+      "Name": "XWA Pilot (For changing which tour of duty mission your pilot is on)",
+      "ShortName": "XWA Pilot",
+      "Company": "Anthony Irwin",
+      "Url": "https://github.com/anthonyirwin82/xwa-pilot",
+      "Versions": [
+        {
+          "Version": "1.0.0",
+          "InstallerFileName": "xwa-pilot",
+          "Date": "2026-11-09 00:00 UTC",
+          "ChangeLog": "https://github.com/anthonyirwin82/xwa-pilot/releases",
+          "Sources": [
+            {
+              "SourceName": "github-linux",
+              "Platform": "linux",
+              "Url": "https://github.com/anthonyirwin82/xwa-pilot/releases/download/V1.0.0/xwa-pilot-linux-amd64"
+            },
+            {
+              "SourceName": "github-windows",
+              "Platform": "windows",
+              "Url": "https://github.com/anthonyirwin82/xwa-pilot/releases/download/V1.0.0/xwa-pilot-windows-amd64.exe"
+            },
+            {
+              "SourceName": "github-mac",
+              "Platform": "mac",
+              "Url": "https://github.com/anthonyirwin82/xwa-pilot/releases/download/V1.0.0/xwa-pilot-darwin-arm64"
+            }
+          ],
+          "IsBaseVersion": true,
+          "PrerequisiteModId": "",
+          "PrerequisiteVersion": ""
+        }
+      ]
+    }
+  ]
+}
